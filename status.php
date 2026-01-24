@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>NetVoyager</title>
+		<title>Is that website down, or is it just you?</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="NetVoyager">
@@ -9,7 +9,7 @@
 		<meta name="keywords" content="link manager, monitor links, internal link, external link, free application">
 		<meta name="robots" content="index, follow">
 
-		<meta property="og:title" content="NetVoyager" />
+		<meta property="og:title" content="Is that website down, or is it just you?" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.ip-address.ro/" />
 		<meta property="og:image" content="/romania-flag-square-icon-256.png" />
