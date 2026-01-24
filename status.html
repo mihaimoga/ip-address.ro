@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>NetVoyager</title>
 		<meta charset="utf-8" />

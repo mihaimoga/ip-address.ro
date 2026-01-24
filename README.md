@@ -19,6 +19,7 @@ Navigate to the project folder and open index.php in your browser.
 
 - HTML/CSS for structure and styling.
 - JavaScript for dynamic IP detection.
+- Hosting: [name.com](https://www.name.com/)
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
