@@ -17,7 +17,7 @@
 		<link rel="icon" type="image/png" href="romania-flag-square-icon-256.png">
 		<link rel="apple-touch-icon" href="romania-flag-square-icon-256.png">
 		<!-- CSS styles for standard search box -->
-	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 		<style type="text/css">
 			/* Set height to 100% for body and html to enable the background image to cover the whole page: */
 			body, html {
@@ -78,24 +78,24 @@
 			<div class="middle">
 				<?php
 				function isSiteAvailible($url){
-	    			/* Check, if a valid url is provided
+					/* Check, if a valid url is provided
 					if(!filter_var($url, FILTER_VALIDATE_URL)){
 						return false;
 					}*/
 
-	    			// Initialize cURL
+					// Initialize cURL
 					$curlInit = curl_init($url);
 
-	    			// Set options
+					// Set options
 					curl_setopt($curlInit,CURLOPT_CONNECTTIMEOUT,10);
 					curl_setopt($curlInit,CURLOPT_HEADER,true);
 					curl_setopt($curlInit,CURLOPT_NOBODY,true);
 					curl_setopt($curlInit,CURLOPT_RETURNTRANSFER,true);
 
-	    			// Get response
+					// Get response
 					$response = curl_exec($curlInit);
 
-	    			// Close a cURL session
+					// Close a cURL session
 					curl_close($curlInit);
 
 					return $response ? true : false;
@@ -111,6 +111,6 @@
 				<a href="https://www.ip-address.ro/status.html">Check another</a>.
 			</div>
 		</div>
-	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	</body>
 </html>

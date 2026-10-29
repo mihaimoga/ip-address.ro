@@ -6,7 +6,7 @@
 		<link rel="icon" type="image/png" href="romania-flag-square-icon-256.png">
 		<link rel="apple-touch-icon" href="romania-flag-square-icon-256.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 		<style type="text/css">
 			html, body, .container {
 				height: 100%;
@@ -38,7 +38,7 @@
 					// Credit: https://stackoverflow.com/a/13646735
 					function getUserIP()
 					{
-					    // Get real visitor IP behind CDN such as Cloudflare
+						// Get real visitor IP behind CDN such as Cloudflare
 						if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
 							$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
 							$_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
@@ -83,6 +83,6 @@
 				<p class="text-center">Website developed by <a href="https://www.moga.doctor/" target="_blank">Stefan-Mihai MOGA</a></p>
 			</div>
 		</div>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	</body>
 </html>
