@@ -63,19 +63,6 @@
 						return $ip;
 					}
 
-					function ip2geo($host) {
-						// Get GeoIP info
-						@$data = file_get_contents('http://freegeoip.net/json/'.$host);
-						if ($data) {
-							$data = json_decode($data);
-							// Return the countrycode, the regionname and the city
-							return $data->country_code.": ".$data->region_name.": ".$data->city;
-						} else {
-							// An error has accourred
-							return "(No geo info found)";
-						}
-					}
-
 					$user_ip = getUserIP();
 					echo "Your public IP address: <strong>".$user_ip."</strong>\n";
 				?>
